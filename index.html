@@ -1,109 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ananthnath Erukulla | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananthnath Erukulla | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <nav class="navbar">
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#achievements">Achievements</a>
-      <a href="#training">Training</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <header>
+        <div class="particles"></div>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="container header-content">
+            <div class="profile-container">
+                <div class="profile-initial">A</div>
+            </div>
+            <div class="header-text">
+                <h1>Ananthnath Erukulla</h1>
+                <p>Data Science Enthusiast</p>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:ananthnatherukulla@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <span>ananthnatherukulla@gmail.com</span>
+                </a>
+                <a href="tel:+916301658065" class="contact-item">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <span>+91 6301658065</span>
+                </a>
+                <a href="https://linkedin.com/in/ananthnatherukulla" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <span>linkedin.com/in/ananthnatherukulla</span>
+                </a>
+                <a href="https://github.com/ananth0710" target="_blank" class="contact-item">
+                    <i class="fab fa-github contact-icon"></i>
+                    <span>github.com/ananth0710</span>
+                </a>
+            </div>
+        </div>
+    </header>
 
-    <div class="header">
-      <h1>Ananthnath Erukulla</h1>
-      <p>Aspiring Data Analyst & Developer</p>
-    </div>
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Diabetes Prediction Using Machine Learning</h3>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                    </div>
+                    <ul>
+                        <li>Developed a diabetes risk prediction model using the Pima Indian Diabetes Dataset</li>
+                        <li>Improved accuracy from 85% to 96% through model optimization</li>
+                        <li>Reduced false positives by 12% using Logistic Regression, Decision Trees, and KNN</li>
+                        <li>Conducted EDA with Pandas & NumPy, identifying three key predictors that increased precision by 15%</li>
+                        <li>Enhanced data integrity by handling missing values and normalizing data</li>
+                    </ul>
+                </div>
 
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>B.Tech in Computer Science and Engineering (LPU), specializing in Data Science. Passionate about turning data into insights through hands-on experience in data preprocessing, exploratory data analysis (EDA), and predictive modeling. Skilled in Python and Scikit-learn, with a strong focus on solving real-world challenges using advanced machine learning techniques.</p>
+                <div class="project-card">
+                    <h3>Food Ordering Website Design</h3>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">UX Design</span>
+                    </div>
+                    <ul>
+                        <li>Built a responsive food-ordering web app improving page load time by 25%</li>
+                        <li>Added real-time form validation reducing incorrect submissions by 30%</li>
+                        <li>Used local storage to personalize user experience, boosting repeat engagement by 25%</li>
+                        <li>Optimized JavaScript execution, reducing server requests by 30%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="education" class="section">
-      <h2>Education</h2>
-      <ul>
-        <li>Lovely Professional University, B.Tech CSE (2022–2026), CGPA: 6.93 – Phagwara, Punjab</li>
-        <li>Sri Chaitanya Junior Kalashala, Intermediate (2020–2022), 70% – Hyderabad, Telangana</li>
-        <li>Delhi Public School, Matriculation (2019–2020), 77.60% – Hyderabad, Telangana</li>
-      </ul>
+    <section id="training">
+        <div class="container">
+            <div class="section-title">
+                <h2>Summer Training</h2>
+            </div>
+            <div class="training-card">
+                <h3>Data Science Using Machine Learning</h3>
+                <p><strong>Duration:</strong> June 2024 – July 2024</p>
+                <ul>
+                    <li>Processed & analyzed datasets using Python (Pandas, NumPy, Matplotlib) to extract insights</li>
+                    <li>Built ML models (KNN, Decision Trees, Logistic Regression, SVM) with EDA & statistical methods</li>
+                    <li>Explored advanced ML techniques including PCA, ensemble learning, and deep learning</li>
+                    <li>Developed a capstone project applying machine learning to solve a real-world business problem</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Programming:</strong> Python, C++, Java, R</li>
-        <li><strong>Frameworks/Tools:</strong> Tableau, Git, GitHub, Excel, Jupyter Notebook</li>
-        <li><strong>Libraries:</strong> Pandas, NumPy, Scikit-learn, TensorFlow</li>
-        <li><strong>Soft Skills:</strong> Critical Thinking, Time Management, Project Management, Adaptability, Collaboration</li>
-      </ul>
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Programming Languages</h3>
+                    <p>Python, Java, R Programming, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>ML Frameworks</h3>
+                    <p>Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools skill-icon"></i>
+                    <h3>Tools/Platforms</h3>
+                    <p>Tableau, Jupyter Notebook, Google Colab, Git, GitHub</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code skill-icon"></i>
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Diabetes Prediction using ML (Jun–Jul 2024):</strong> Achieved 96% accuracy with optimized Logistic Regression and KNN models using the PIMA dataset. Implemented EDA, handled missing values, and reduced false positives by 12%.</li>
-        <li><strong>Food Ordering Website (Nov–Dec 2022):</strong> Built a responsive web app with form validation and local storage, reducing incorrect submissions by 30% and improving performance by 25%. <a href="https://github.com/ananth0701/my-projects.git" target="_blank">GitHub Repo</a></li>
-      </ul>
+    <section id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Bachelor of Technology - Computer Science and Engineering</h3>
+                    <p>Lovely Professional University, Phagwara, Punjab</p>
+                    <p><strong>CGPA:</strong> 6.93 | August 2022 - Present</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Intermediate (12th Grade)</h3>
+                    <p>Sri Chaithanya Junior Kalashala, Hyderabad, Telangana</p>
+                    <p><strong>Percentage:</strong> 70% | June 2020 - March 2022</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Matriculation (10th Grade)</h3>
+                    <p>Delhi Public School, Hyderabad, Telangana</p>
+                    <p><strong>Percentage:</strong> 77.80% | April 2019 - March 2020</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="certifications" class="section">
-      <h2>Certifications</h2>
-      <ul>
-        <li>Data Analysis with Tableau – Coursera, Nov 2024</li>
-        <li>Introduction to Cloud Computing – NPTEL, Oct 2024</li>
-        <li>Data Science & ML – IBM/Allosoft, Jul 2024</li>
-        <li>R Programming – Coursera, Apr 2024</li>
-        <li>Excel Fundamentals for Data Analysis – Coursera, Apr 2024</li>
-        <li>Dynamic Programming & Greedy Algorithms – Coursera, Apr 2024</li>
-      </ul>
+    <section id="certificates">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+            </div>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <i class="fas fa-chart-bar cert-logo"></i>
+                    <h3>Data Analysis with Tableau</h3>
+                    <p>Coursera</p>
+                    <p>November 2024</p>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-certificate cert-logo"></i>
+                    <h3>Data Science and Machine Learning Certification</h3>
+                    <p>Allsoft Solutions | IBM</p>
+                    <p>July 2024</p>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-code cert-logo"></i>
+                    <h3>R Programming</h3>
+                    <p>Coursera</p>
+                    <p>April 2024</p>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-file-excel cert-logo"></i>
+                    <h3>Excel Fundamentals for Data Analysis</h3>
+                    <p>Coursera</p>
+                    <p>April 2024</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="achievements" class="section">
-      <h2>Achievements</h2>
-      <ul>
-        <li>2nd Place – IoT Competition: Built a DTMF-controlled robot, beating 50+ teams</li>
-        <li>Participant – Cyber Security Hackathon (University Level)</li>
-        <li>Built a fingerprint-based door-lock system in high school</li>
-        <li>Created a user-friendly web portal project in first year</li>
-      </ul>
+    <section id="achievements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Achievements</h2>
+            </div>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <i class="fas fa-trophy cert-logo"></i>
+                    <h3>IoT Competition</h3>
+                    <p>Secured 2nd place</p>
+                    <p>Designed & built a DTMF-controlled robot, outperforming 50+ teams</p>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-shield-alt cert-logo"></i>
+                    <h3>Cyber-Security Hackathon</h3>
+                    <p>Achieved recognition</p>
+                    <p>Among top participants in university competition with 150 students</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="training" class="section">
-      <h2>Summer Training</h2>
-      <ul>
-        <li>Data Science Using Machine Learning (Jun–Jul 2024):</li>
-        <ul>
-          <li>Explored ML models: KNN, Decision Trees, SVM, Logistic Regression</li>
-          <li>Applied PCA, deep learning, and ensemble methods</li>
-          <li>Completed capstone project solving real-world problem using EDA and ML techniques</li>
-        </ul>
-      </ul>
+    <section id="contact">
+        <div class="particles"></div>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="container contact-container">
+            <h2 class="contact-title">Get In Touch</h2>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:ananthnatherukulla@gmail.com">ananthnatherukulla@gmail.com</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+916301658065">+91 6301658065</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/ananthnatherukulla" target="_blank">linkedin.com/in/ananthnatherukulla</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/ananth0710" target="_blank">github.com/ananth0710</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Feel free to connect with me through the platforms below:</p>
-      <div class="icons">
-        <a href="mailto:ananthnatherukulla@gmail.com">📧 Email</a>
-        <a href="https://github.com/ananth0701" target="_blank">🐙 GitHub</a>
-        <a href="https://linkedin.com/in/ananthnatherukulla" target="_blank">💼 LinkedIn</a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    &copy; 2025 Ananthnath Erukulla. All rights reserved.
-  </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
